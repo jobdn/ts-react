@@ -18,10 +18,8 @@
   },
   "plugins": ["react", "prettier"],
   "rules": {
-    "no-unused-vars": 1,
     "jsx-quotes": [1, "prefer-double"],
     "@typescript-eslint/strict-boolean-expressions": "warn",
-    "no-console": 1,
     "import/order": [
       2,
       {
@@ -37,7 +35,6 @@
         ],
         "newlines-between": "always"
       }
-    ],
-    "prettier/prettier": [2, { "endOfLine": "auto" }]
+    ]
   }
 }
