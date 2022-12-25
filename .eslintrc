@@ -19,6 +19,7 @@
   "plugins": ["react", "prettier"],
   "rules": {
     "jsx-quotes": [1, "prefer-double"],
+    "no-console": 1,
     "@typescript-eslint/strict-boolean-expressions": "warn",
     "import/order": [
       2,
