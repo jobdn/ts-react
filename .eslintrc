@@ -20,6 +20,7 @@
   "rules": {
     "jsx-quotes": [1, "prefer-double"],
     "no-console": 1,
+    "no-unused-vars": 2,
     "@typescript-eslint/strict-boolean-expressions": "warn",
     "import/order": [
       2,
@@ -35,6 +36,12 @@
           "type"
         ],
         "newlines-between": "always"
+      }
+    ],
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
       }
     ]
   }

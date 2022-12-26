@@ -9,7 +9,11 @@
     "web-vitals": "^2.1.4"
   },
   "lint-staged": {
-    "*": "prettier --ignore-unknown --write"
+    "*.(ts|tsx)": [
+      "npm run lint:fix -- --cache",
+      "prettier --write"
+    ],
+    "*.(scss|css)": "stylelint ./src --fix"
   },
   "scripts": {
     "start": "react-scripts start",
